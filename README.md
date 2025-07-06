@@ -2,7 +2,7 @@
 
 # Product Recommendation System Using LSTM
 
-# Application LINK:
+## Application link:
 https://items-recommendation-system-using-lstm-vraj-dobariya.streamlit.app/
 
 ## Introduction
