@@ -42,7 +42,7 @@ The project includes four key files stored in the `artifacts` directory, generat
 These artifacts enable efficient loading of the model and tokenizers for the Streamlit app, ensuring seamless deployment.
 
 ## Model Architecture and Results
-The project implements four model variants, with results summarized below. The models predict the next item in a sequence based on item and category inputs.
+The project implements two model variants, with results summarized below. The models predict the next item in a sequence based on item and category inputs.
 
 | Model Variant               | Precision@5 | Recall@5 | Why This Result?                                                                 |
 |-----------------------------|-------------|----------|----------------------------------------------------------------------------------|
