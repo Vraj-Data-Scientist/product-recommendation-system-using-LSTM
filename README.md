@@ -2,6 +2,9 @@
 
 # Product Recommendation System Using LSTM
 
+# Application LINK:
+https://items-recommendation-system-using-lstm-vraj-dobariya.streamlit.app/
+
 ## Introduction
 This project implements a **Product Recommendation System** using a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) architecture, designed to provide personalized product suggestions based on user interaction sequences. The system leverages the Retailrocket e-commerce dataset to predict the next item a user is likely to interact with, based on their historical "addtocart" and "transaction" events. The project includes a **production-ready Streamlit web application** for interactive recommendations, making it accessible for users to explore suggestions by selecting visitor IDs or inputting custom item sequences.
 
@@ -88,7 +91,7 @@ The app loads the preprocessed dataset, model, and tokenizers from the `artifact
    - Obtain the Retailrocket dataset from [Kaggle](https://www.kaggle.com/retailrocket/ecommerce-dataset).
    - Place `events.csv`, `item_properties_part1.csv`, `item_properties_part2.csv`, and `category_tree.csv` in the project root or update paths in the notebook.
 4. **Run the Notebook**:
-   - Open `product-recommendation-system-using-RNN (5).ipynb` in Jupyter Notebook.
+   - Open `product-recommendation-system-using-RNN.ipynb` in Jupyter Notebook.
    - Execute cells to preprocess data, train models, and generate artifacts.
 5. **Run the Streamlit App**:
    ```bash
@@ -104,14 +107,14 @@ The app loads the preprocessed dataset, model, and tokenizers from the `artifact
 │   ├── rnn_recommender_optimized.h5
 │   ├── item_tokenizer_final.pkl
 │   ├── category_tokenizer_final.pkl
-├── product-recommendation-system-using-RNN (5).ipynb
+├── product-recommendation-system-using-RNN.ipynb
 ├── main.py
 ├── README.md
 ├── requirements.txt
 ```
 
 ## Future Improvements
-- **Attention Mechanism**: Add an attention layer to focus on relevant parts of the sequence.
+
 - **Incorporate Item Properties**: Use additional item metadata (e.g., price, brand) to enhance recommendations.
 - **Real-Time Updates**: Integrate real-time user interaction data for dynamic recommendations.
 - **Model Optimization**: Experiment with larger LSTM units or deeper architectures for improved accuracy.
@@ -121,7 +124,4 @@ The app loads the preprocessed dataset, model, and tokenizers from the `artifact
 - [GitHub Repository](https://github.com/Vraj-Data-Scientist/product-recommendation-system-using-LSTM)
 - [Keras Documentation](https://keras.io/)
 - [Streamlit Documentation](https://docs.streamlit.io/)
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
