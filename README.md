@@ -119,9 +119,4 @@ The app loads the preprocessed dataset, model, and tokenizers from the `artifact
 - **Real-Time Updates**: Integrate real-time user interaction data for dynamic recommendations.
 - **Model Optimization**: Experiment with larger LSTM units or deeper architectures for improved accuracy.
 
-## References
-- [Retailrocket Dataset](https://www.kaggle.com/retailrocket/ecommerce-dataset)
-- [GitHub Repository](https://github.com/Vraj-Data-Scientist/product-recommendation-system-using-LSTM)
-- [Keras Documentation](https://keras.io/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
 
